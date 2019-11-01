@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List(twitter)</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+<div id="content">
+    <div class="container">
+        <img class="logo" src="assets/twitter.png" alt="twitter">
+        <div class="wrapper">
+            <div class="row">
+                <label for="tweet">Tweet At:</label>
+                <form action="#" id="form">
+                    <label for="tweet"></label>
+                    <textarea id="tweet" class="u-full-width" maxlength="140"></textarea>
+                    <span class="charCount"></span>
+                    <input type="submit" class="button u-full-width button-primary" value="Tweetle">
+                </form>
+            </div>
+            <div class="row">
+                <h2>Tweetler</h2>
+                <div id="tweet-list"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/tweet.js"></script>
+</body>
+</html>

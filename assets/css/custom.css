@@ -1,0 +1,56 @@
+h1, h2 {
+    text-align: center;
+}
+
+#content {
+    margin-top: 40px;
+}
+
+.wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 40px;
+    display: flex;
+    margin: 0 auto;
+}
+
+textarea {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.charCount {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+#tweet-list li {
+    display: flex;
+    justify-content: space-between;
+    word-break: break-word;
+    border: solid 1px #d1d1d1;
+    padding: 14px;
+}
+
+.remove-tweet {
+    cursor: pointer;
+    background: #33c3f0;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    border: solid 2px;
+    border-radius: 50%;
+    min-width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove-tweet:hover {
+    color: #fff;
+}
